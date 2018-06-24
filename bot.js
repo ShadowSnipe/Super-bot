@@ -11,7 +11,7 @@ bot.on("ready", async () => {
     console.log(e.stack);
   }
 });
-client.login(process.env.NDYwMjc2NTY4NjI4MTMzODg4.DhCZfA.xYdVZBixD4DAvJBiDFNrnqwuP1E);
+client.login(process.env.BOT_TOKEN);
 bot.on("message", async message => {
   if(message.author.bot) return;
   if(message.channel.type  === "dm") return;
